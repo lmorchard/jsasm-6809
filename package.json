@@ -1,0 +1,24 @@
+{
+  "name": "jsasm-6809",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec",
+    "testwatch": "./node_modules/.bin/mocha -w -R spec"
+  },
+  "author": "Les Orchard <me@lmorchard.com> (http://github.com/lmorchard)",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4",
+    "jshint": "~2.5.5"
+  },
+  "dependencies": {
+    "pegjs": "~0.8.0",
+    "lodash": "~2.4.1"
+  }
+}
